@@ -7,6 +7,11 @@ Documentação inicial em Notion [Link do site](https://www.notion.so/Sistema-de
  - Docker
  - Intelij
  - DBeaver
+ - Postman
+
+## Tecnologis
+ - Java
+ - SpringBoot
 
 ## Banco de dados
 MySql 

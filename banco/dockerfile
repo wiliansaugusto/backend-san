@@ -1,0 +1,14 @@
+# Base image
+FROM mysql:8.0
+
+# Copia o arquivo de configuração personalizado
+COPY my.cnf /etc/mysql/conf.d/my.cnf
+
+# Expõe a porta padrão do MySQL
+EXPOSE 3306
+
+# Configura variáveis de ambiente
+ENV MYSQL_ROOT_PASSWORD=Wiz@1984 \
+    MYSQL_DATABASE=san_database \
+    MYSQL_USER=willians131984 \
+    MYSQL_PASSWORD=Wiz@1984

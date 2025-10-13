@@ -9,10 +9,13 @@ Documentação inicial em Notion [Link do site](https://www.notion.so/Sistema-de
  - DBeaver
  - Postman
 
-## Tecnologis
+## Tecnologias
  - Java
  - SpringBoot
 
+## Qualidade
+ Só havera merge quando o codigo tiver 80% de cobertura de testes
+ 
 ## Banco de dados
 MySql 
 

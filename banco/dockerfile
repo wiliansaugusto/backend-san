@@ -12,3 +12,6 @@ ENV MYSQL_ROOT_PASSWORD=Wiz@1984 \
     MYSQL_DATABASE=san_database \
     MYSQL_USER=willians131984 \
     MYSQL_PASSWORD=Wiz@1984
+
+# Garante que o diretório padrão do MySQL seja usado
+VOLUME /var/lib/mysql

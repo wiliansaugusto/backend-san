@@ -1,0 +1,5 @@
+Construa a Imagem
+docker build -t banco_san .
+
+Execute o Contêiner com Volume Nomeado:
+docker run --name banco_san -d -p 3307:3306 -v mysql-data_san:/var/lib/mysql banco_san
